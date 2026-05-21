@@ -1,0 +1,22 @@
+# Java
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Jekyll local build output
+docs/_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+

@@ -1,0 +1,15 @@
+title: Java Backend Cookbook
+description: A practical Java backend interview and core concepts playbook for 2026.
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-remote-theme
+
+url: ""
+baseurl: ""
+
+color_scheme: light
+search_enabled: true
+
+heading_anchors: true
+
+footer_content: "Java Backend Cookbook. Simple explanations for serious backend learning."
