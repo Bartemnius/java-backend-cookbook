@@ -4,12 +4,16 @@ remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-remote-theme
 
-url: ""
-baseurl: ""
+url: "https://bartemnius.github.io"
+baseurl: "/java-backend-cookbook"
 
 color_scheme: light
 search_enabled: true
 
 heading_anchors: true
+
+aux_links:
+  GitHub Repository:
+    - "https://github.com/Bartemnius/java-backend-cookbook"
 
 footer_content: "Java Backend Cookbook. Simple explanations for serious backend learning."
