@@ -14,6 +14,14 @@ The goal is not to sound academic.
 
 The goal is to explain things clearly enough that you can use them, remember them, and explain them during an interview.
 
+## AI-Assisted Project
+
+This cookbook is an AI-assisted learning project edited and curated by a developer.
+
+The reason is simple: important backend concepts are often scattered across documentation, articles, videos, courses, and interview notes. This project collects the topics I personally consider important into one clear, searchable place.
+
+AI helps with drafting, structure, examples, and explanations. Human editing is used to decide what matters, improve clarity, remove noise, and keep the material useful for real interview preparation.
+
 ## What You Will Find Here
 
 - Java fundamentals
@@ -47,5 +55,3 @@ Start here:
 
 - [Introduction](book/01-introduction.md)
 - [Java Fundamentals](book/02-java-fundamentals.md)
-- [Book Checklist](java-developer-interview-book-checklist.md)
-

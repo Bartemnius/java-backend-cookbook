@@ -7,6 +7,20 @@ nav_order: 1
 
 # Introduction
 
+## A Note About AI
+
+This cookbook is an AI-assisted project.
+
+I am not pretending that every sentence here was manually written from scratch. That would be dishonest and, honestly, not the point.
+
+The point is to collect the Java backend concepts I care about into one clear place: Java, Spring, databases, networking, architecture, DevOps, interview questions, and practical examples.
+
+AI helps with drafting, structure, examples, and rewriting explanations in simple English. My role is editorial: deciding what should be included, what should be removed, what sounds unclear, what feels too shallow, and what actually helps a developer prepare for interviews.
+
+In 2026, this is also part of real software work. A lot of development is no longer only about writing every line yourself. It is about understanding, reviewing, correcting, improving, and taking responsibility for the final result.
+
+That is the standard I want for this project too.
+
 ## What This Book Is About
 
 This book is a practical Java Developer Interview Playbook.

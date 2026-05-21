@@ -2,6 +2,8 @@
 layout: default
 title: Book Checklist
 nav_order: 99
+nav_exclude: true
+search_exclude: true
 ---
 
 # Java Developer Interview Book - 2026 Checklist
