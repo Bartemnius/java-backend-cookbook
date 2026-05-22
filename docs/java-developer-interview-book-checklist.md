@@ -130,9 +130,9 @@ and extend.
 - [x] Abstraction
 - [x] Interfaces
 - [x] Abstract classes
-- [ ] Exceptions: checked vs unchecked
-- [ ] try/catch/finally
-- [ ] try-with-resources
+- [x] Exceptions: checked vs unchecked
+- [x] try/catch/finally
+- [x] try-with-resources
 - [ ] Generics
 - [ ] Collections overview
 - [ ] List, Set, Map

@@ -47,3 +47,6 @@ This chapter starts from the ground level.
 - [Abstraction](java-fundamentals/27-abstraction.md)
 - [Interfaces](java-fundamentals/28-interfaces.md)
 - [Abstract Classes](java-fundamentals/29-abstract-classes.md)
+- [Exceptions: Checked Vs Unchecked](java-fundamentals/30-exceptions-checked-vs-unchecked.md)
+- [try/catch/finally](java-fundamentals/31-try-catch-finally.md)
+- [try-with-resources](java-fundamentals/32-try-with-resources.md)
