@@ -33,3 +33,8 @@ This chapter starts from the ground level.
 - [Strings And Immutability](java-fundamentals/13-strings-and-immutability.md)
 - [StringBuilder And StringBuffer](java-fundamentals/14-stringbuilder-and-stringbuffer.md)
 - [Arrays](java-fundamentals/15-arrays.md)
+- [var Keyword](java-fundamentals/16-var-keyword.md)
+- [final Keyword](java-fundamentals/17-final-keyword.md)
+- [Enum](java-fundamentals/18-enum.md)
+- [Records](java-fundamentals/19-records.md)
+- [Sealed Classes](java-fundamentals/20-sealed-classes.md)

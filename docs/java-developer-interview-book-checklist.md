@@ -116,11 +116,11 @@ and extend.
 - [x] Strings and immutability
 - [x] StringBuilder and StringBuffer
 - [x] Arrays
-- [ ] var keyword
-- [ ] final keyword
-- [ ] enum
-- [ ] Records
-- [ ] Sealed classes
+- [x] var keyword
+- [x] final keyword
+- [x] enum
+- [x] Records
+- [x] Sealed classes
 - [ ] Object class methods: equals, hashCode, toString
 - [ ] Method overloading
 - [ ] Method overriding
