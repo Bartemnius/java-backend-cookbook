@@ -112,10 +112,10 @@ and extend.
 - [x] Stack vs heap basics
 - [x] Primitive types
 - [x] Wrapper classes
-- [ ] Autoboxing and unboxing
-- [ ] Strings and immutability
-- [ ] StringBuilder and StringBuffer
-- [ ] Arrays
+- [x] Autoboxing and unboxing
+- [x] Strings and immutability
+- [x] StringBuilder and StringBuffer
+- [x] Arrays
 - [ ] var keyword
 - [ ] final keyword
 - [ ] enum
