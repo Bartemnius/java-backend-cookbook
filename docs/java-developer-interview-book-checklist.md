@@ -121,11 +121,11 @@ and extend.
 - [x] enum
 - [x] Records
 - [x] Sealed classes
-- [ ] Object class methods: equals, hashCode, toString
-- [ ] Method overloading
-- [ ] Method overriding
-- [ ] Inheritance
-- [ ] Composition over inheritance
+- [x] Object class methods: equals, hashCode, toString
+- [x] Method overloading
+- [x] Method overriding
+- [x] Inheritance
+- [x] Composition over inheritance
 - [ ] Polymorphism
 - [ ] Abstraction
 - [ ] Interfaces

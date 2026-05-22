@@ -38,3 +38,8 @@ This chapter starts from the ground level.
 - [Enum](java-fundamentals/18-enum.md)
 - [Records](java-fundamentals/19-records.md)
 - [Sealed Classes](java-fundamentals/20-sealed-classes.md)
+- [Object Methods: equals, hashCode, toString](java-fundamentals/21-object-methods.md)
+- [Method Overloading](java-fundamentals/22-method-overloading.md)
+- [Method Overriding](java-fundamentals/23-method-overriding.md)
+- [Inheritance](java-fundamentals/24-inheritance.md)
+- [Composition Over Inheritance](java-fundamentals/25-composition-over-inheritance.md)
