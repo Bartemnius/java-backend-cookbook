@@ -126,10 +126,10 @@ and extend.
 - [x] Method overriding
 - [x] Inheritance
 - [x] Composition over inheritance
-- [ ] Polymorphism
-- [ ] Abstraction
-- [ ] Interfaces
-- [ ] Abstract classes
+- [x] Polymorphism
+- [x] Abstraction
+- [x] Interfaces
+- [x] Abstract classes
 - [ ] Exceptions: checked vs unchecked
 - [ ] try/catch/finally
 - [ ] try-with-resources

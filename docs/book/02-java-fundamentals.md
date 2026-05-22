@@ -43,3 +43,7 @@ This chapter starts from the ground level.
 - [Method Overriding](java-fundamentals/23-method-overriding.md)
 - [Inheritance](java-fundamentals/24-inheritance.md)
 - [Composition Over Inheritance](java-fundamentals/25-composition-over-inheritance.md)
+- [Polymorphism](java-fundamentals/26-polymorphism.md)
+- [Abstraction](java-fundamentals/27-abstraction.md)
+- [Interfaces](java-fundamentals/28-interfaces.md)
+- [Abstract Classes](java-fundamentals/29-abstract-classes.md)
