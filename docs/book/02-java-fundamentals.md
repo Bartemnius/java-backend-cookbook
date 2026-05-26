@@ -58,3 +58,5 @@ This chapter starts from the ground level.
 - [HashSet Internals](java-fundamentals/38-hashset-internals.md)
 - [Comparable Vs Comparator](java-fundamentals/39-comparable-vs-comparator.md)
 - [Iterators](java-fundamentals/40-iterators.md)
+- [Streams Basics](java-fundamentals/41-streams-basics.md)
+- [Optional](java-fundamentals/42-optional.md)

@@ -141,8 +141,8 @@ and extend.
 - [x] HashSet internals
 - [x] Comparable vs Comparator
 - [x] Iterators
-- [ ] Streams basics
-- [ ] Optional
+- [x] Streams basics
+- [x] Optional
 - [ ] Date and time API
 - [ ] Basic input/output
 - [ ] Serialization basics
