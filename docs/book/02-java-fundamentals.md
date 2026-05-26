@@ -51,3 +51,6 @@ This chapter starts from the ground level.
 - [try/catch/finally](java-fundamentals/31-try-catch-finally.md)
 - [try-with-resources](java-fundamentals/32-try-with-resources.md)
 - [Generics](java-fundamentals/33-generics.md)
+- [Collections Overview](java-fundamentals/34-collections-overview.md)
+- [List, Set, Map](java-fundamentals/35-list-set-map.md)
+- [ArrayList Vs LinkedList](java-fundamentals/36-arraylist-vs-linkedlist.md)

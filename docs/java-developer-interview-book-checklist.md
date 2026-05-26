@@ -134,9 +134,9 @@ and extend.
 - [x] try/catch/finally
 - [x] try-with-resources
 - [x] Generics
-- [ ] Collections overview
-- [ ] List, Set, Map
-- [ ] ArrayList vs LinkedList
+- [x] Collections overview
+- [x] List, Set, Map
+- [x] ArrayList vs LinkedList
 - [ ] HashMap internals
 - [ ] HashSet internals
 - [ ] Comparable vs Comparator
