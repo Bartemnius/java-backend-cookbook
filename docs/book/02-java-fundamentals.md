@@ -56,3 +56,5 @@ This chapter starts from the ground level.
 - [ArrayList Vs LinkedList](java-fundamentals/36-arraylist-vs-linkedlist.md)
 - [HashMap Internals](java-fundamentals/37-hashmap-internals.md)
 - [HashSet Internals](java-fundamentals/38-hashset-internals.md)
+- [Comparable Vs Comparator](java-fundamentals/39-comparable-vs-comparator.md)
+- [Iterators](java-fundamentals/40-iterators.md)

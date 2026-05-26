@@ -139,8 +139,8 @@ and extend.
 - [x] ArrayList vs LinkedList
 - [x] HashMap internals
 - [x] HashSet internals
-- [ ] Comparable vs Comparator
-- [ ] Iterators
+- [x] Comparable vs Comparator
+- [x] Iterators
 - [ ] Streams basics
 - [ ] Optional
 - [ ] Date and time API
