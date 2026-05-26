@@ -137,8 +137,8 @@ and extend.
 - [x] Collections overview
 - [x] List, Set, Map
 - [x] ArrayList vs LinkedList
-- [ ] HashMap internals
-- [ ] HashSet internals
+- [x] HashMap internals
+- [x] HashSet internals
 - [ ] Comparable vs Comparator
 - [ ] Iterators
 - [ ] Streams basics

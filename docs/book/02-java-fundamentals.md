@@ -54,3 +54,5 @@ This chapter starts from the ground level.
 - [Collections Overview](java-fundamentals/34-collections-overview.md)
 - [List, Set, Map](java-fundamentals/35-list-set-map.md)
 - [ArrayList Vs LinkedList](java-fundamentals/36-arraylist-vs-linkedlist.md)
+- [HashMap Internals](java-fundamentals/37-hashmap-internals.md)
+- [HashSet Internals](java-fundamentals/38-hashset-internals.md)
