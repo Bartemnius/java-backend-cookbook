@@ -50,3 +50,4 @@ This chapter starts from the ground level.
 - [Exceptions: Checked Vs Unchecked](java-fundamentals/30-exceptions-checked-vs-unchecked.md)
 - [try/catch/finally](java-fundamentals/31-try-catch-finally.md)
 - [try-with-resources](java-fundamentals/32-try-with-resources.md)
+- [Generics](java-fundamentals/33-generics.md)

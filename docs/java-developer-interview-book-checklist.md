@@ -133,7 +133,7 @@ and extend.
 - [x] Exceptions: checked vs unchecked
 - [x] try/catch/finally
 - [x] try-with-resources
-- [ ] Generics
+- [x] Generics
 - [ ] Collections overview
 - [ ] List, Set, Map
 - [ ] ArrayList vs LinkedList
