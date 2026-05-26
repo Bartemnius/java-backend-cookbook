@@ -143,9 +143,9 @@ and extend.
 - [x] Iterators
 - [x] Streams basics
 - [x] Optional
-- [ ] Date and time API
-- [ ] Basic input/output
-- [ ] Serialization basics
+- [x] Date and time API
+- [x] Basic input/output
+- [x] Serialization basics
 
 ### 3. Intermediate and Advanced Java
 

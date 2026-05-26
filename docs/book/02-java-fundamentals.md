@@ -60,3 +60,6 @@ This chapter starts from the ground level.
 - [Iterators](java-fundamentals/40-iterators.md)
 - [Streams Basics](java-fundamentals/41-streams-basics.md)
 - [Optional](java-fundamentals/42-optional.md)
+- [Date And Time API](java-fundamentals/43-date-and-time-api.md)
+- [Basic Input/Output](java-fundamentals/44-basic-input-output.md)
+- [Serialization Basics](java-fundamentals/45-serialization-basics.md)
