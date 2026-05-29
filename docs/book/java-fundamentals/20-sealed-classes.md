@@ -74,17 +74,79 @@ Now every login result must be one of these known types.
 
 This is useful because code can handle all cases explicitly.
 
-## sealed, non-sealed, final
+## Why Children Must Be final, sealed, or non-sealed
 
-A class that extends a sealed class must say what happens next.
+This is the part that often feels strange at first.
 
-It must be one of:
+When a class or interface is `sealed`, Java says:
 
 ```text
-final      -> cannot be extended further
-sealed     -> still restricted
-non-sealed -> opens inheritance again
+This hierarchy is controlled.
+Only explicitly permitted types can extend or implement this type.
 ```
+
+Because of that, every direct permitted child must clearly say what happens next.
+
+It has three choices:
+
+```text
+final      -> I stop the hierarchy here.
+sealed     -> I continue controlling the hierarchy.
+non-sealed -> I open the hierarchy again from here.
+```
+
+That is why this does not compile:
+
+```java
+public sealed interface Result permits Success {
+}
+
+public class Success implements Result {
+}
+```
+
+`Success` is allowed to implement `Result`, but it does not say what happens next.
+
+Java wants an explicit decision.
+
+Correct option 1: stop inheritance with `final`.
+
+```java
+public final class Success implements Result {
+}
+```
+
+Correct option 2: keep the hierarchy controlled with `sealed`.
+
+```java
+public sealed class Success implements Result
+        permits DetailedSuccess {
+}
+
+public final class DetailedSuccess extends Success {
+}
+```
+
+Correct option 3: open inheritance again with `non-sealed`.
+
+```java
+public non-sealed class Success implements Result {
+}
+```
+
+`non-sealed` basically means:
+
+```text
+Yes, the parent was sealed, but from this class down inheritance is open again.
+```
+
+So yes, a `non-sealed` class behaves like a normal open class.
+
+But Java forces you to write `non-sealed` explicitly because it wants to know that reopening the hierarchy was intentional.
+
+This rule applies only to direct permitted children.
+
+Records are a special case worth remembering: records are implicitly final, so a record can implement a sealed interface without writing `final`.
 
 Example:
 
@@ -102,6 +164,22 @@ public non-sealed class Rectangle extends Shape {
 `Circle` cannot be extended.
 
 `Rectangle` can be extended because it is `non-sealed`.
+
+Example with records:
+
+```java
+public sealed interface LoginResult
+        permits LoginSuccess, LoginFailure {
+}
+
+public record LoginSuccess(String token) implements LoginResult {
+}
+
+public record LoginFailure(String reason) implements LoginResult {
+}
+```
+
+This is valid because records are implicitly final.
 
 ## Common Interview Questions
 
@@ -137,6 +215,30 @@ public sealed interface Result permits Success, Failure {
 
 `sealed` allows inheritance only by specific permitted classes.
 
+### What does `non-sealed` mean?
+
+`non-sealed` reopens inheritance.
+
+Good answer:
+
+```text
+If a class directly extends or implements a sealed type, Java forces it to say
+what happens next. `non-sealed` means this class is allowed by the sealed parent,
+but from this point down normal inheritance is open again.
+```
+
+Example:
+
+```java
+public sealed interface Result permits UnknownResult {
+}
+
+public non-sealed class UnknownResult implements Result {
+}
+```
+
+Other classes can now extend `UnknownResult`.
+
 ## Common Mistakes
 
 Mistake 1: Using sealed classes where an enum is enough.
@@ -160,9 +262,11 @@ Sealed classes are powerful, but they can be overused.
 
 If a simple class or enum solves the problem clearly, use the simple thing.
 
-Mistake 3: Forgetting that permitted subclasses must follow sealing rules.
+Mistake 3: Forgetting that direct permitted subclasses must follow sealing rules.
 
-Subclasses must be `final`, `sealed`, or `non-sealed`.
+Direct permitted subclasses must be `final`, `sealed`, or `non-sealed`.
+
+Records are implicitly final, so they already satisfy this rule.
 
 ## Mid/Senior Notes
 
@@ -219,7 +323,8 @@ They are useful for controlled type hierarchies.
 
 `permits` lists allowed subclasses.
 
-Subclasses must be `final`, `sealed`, or `non-sealed`.
+Direct permitted subclasses must be `final`, `sealed`, or `non-sealed`.
+
+Records are implicitly final, so they do not need an explicit `final` keyword.
 
 Use sealed classes when a domain concept has a known set of different shapes.
-
