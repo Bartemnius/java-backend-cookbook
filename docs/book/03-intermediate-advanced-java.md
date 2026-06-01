@@ -22,3 +22,7 @@ But as you move toward mid-level and senior-level roles, you should understand e
 - [Class Loading](intermediate-advanced-java/02-class-loading.md)
 - [Memory Model Overview](intermediate-advanced-java/03-memory-model-overview.md)
 - [Garbage Collection Basics](intermediate-advanced-java/04-garbage-collection-basics.md)
+- [Common Garbage Collectors](intermediate-advanced-java/05-common-garbage-collectors.md)
+- [JVM Tuning Basics](intermediate-advanced-java/06-jvm-tuning-basics.md)
+- [Reflection](intermediate-advanced-java/07-reflection.md)
+- [Annotations](intermediate-advanced-java/08-annotations.md)

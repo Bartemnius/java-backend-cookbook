@@ -153,10 +153,10 @@ and extend.
 - [x] Class loading
 - [x] Memory model overview
 - [x] Garbage collection basics
-- [ ] Common garbage collectors
-- [ ] JVM tuning basics
-- [ ] Reflection
-- [ ] Annotations
+- [x] Common garbage collectors
+- [x] JVM tuning basics
+- [x] Reflection
+- [x] Annotations
 - [ ] Lambdas
 - [ ] Functional interfaces
 - [ ] Stream API deeper usage
