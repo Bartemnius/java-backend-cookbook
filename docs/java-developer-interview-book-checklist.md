@@ -149,10 +149,10 @@ and extend.
 
 ### 3. Intermediate and Advanced Java
 
-- [ ] JVM architecture
-- [ ] Class loading
-- [ ] Memory model overview
-- [ ] Garbage collection basics
+- [x] JVM architecture
+- [x] Class loading
+- [x] Memory model overview
+- [x] Garbage collection basics
 - [ ] Common garbage collectors
 - [ ] JVM tuning basics
 - [ ] Reflection
