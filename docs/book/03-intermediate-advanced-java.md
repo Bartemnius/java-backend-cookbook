@@ -26,3 +26,7 @@ But as you move toward mid-level and senior-level roles, you should understand e
 - [JVM Tuning Basics](intermediate-advanced-java/06-jvm-tuning-basics.md)
 - [Reflection](intermediate-advanced-java/07-reflection.md)
 - [Annotations](intermediate-advanced-java/08-annotations.md)
+- [Lambdas](intermediate-advanced-java/09-lambdas.md)
+- [Functional Interfaces](intermediate-advanced-java/10-functional-interfaces.md)
+- [Stream API Deeper Usage](intermediate-advanced-java/11-stream-api-deeper-usage.md)
+- [Parallel Streams](intermediate-advanced-java/12-parallel-streams.md)

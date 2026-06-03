@@ -157,10 +157,10 @@ and extend.
 - [x] JVM tuning basics
 - [x] Reflection
 - [x] Annotations
-- [ ] Lambdas
-- [ ] Functional interfaces
-- [ ] Stream API deeper usage
-- [ ] Parallel streams
+- [x] Lambdas
+- [x] Functional interfaces
+- [x] Stream API deeper usage
+- [x] Parallel streams
 - [ ] Immutability in real applications
 - [ ] Defensive copying
 - [ ] SOLID principles in Java
