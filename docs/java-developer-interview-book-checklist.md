@@ -165,7 +165,7 @@ and extend.
 - [x] Defensive copying
 - [x] SOLID principles in Java
 - [x] Common design patterns in Java
-- [ ] Dependency injection concept without Spring
+- [x] Dependency injection concept without Spring
 - [ ] Multithreading basics
 - [ ] Thread lifecycle
 - [ ] Runnable vs Callable

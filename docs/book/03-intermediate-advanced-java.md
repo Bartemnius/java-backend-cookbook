@@ -34,3 +34,4 @@ But as you move toward mid-level and senior-level roles, you should understand e
 - [Defensive Copying](intermediate-advanced-java/14-defensive-copying.md)
 - [SOLID Principles In Java](intermediate-advanced-java/15-solid-principles-in-java.md)
 - [Common Design Patterns In Java](intermediate-advanced-java/16-common-design-patterns-in-java.md)
+- [Dependency Injection Without Spring](intermediate-advanced-java/17-dependency-injection-without-spring.md)
