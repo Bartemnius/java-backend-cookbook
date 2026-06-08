@@ -161,10 +161,10 @@ and extend.
 - [x] Functional interfaces
 - [x] Stream API deeper usage
 - [x] Parallel streams
-- [ ] Immutability in real applications
-- [ ] Defensive copying
-- [ ] SOLID principles in Java
-- [ ] Common design patterns in Java
+- [x] Immutability in real applications
+- [x] Defensive copying
+- [x] SOLID principles in Java
+- [x] Common design patterns in Java
 - [ ] Dependency injection concept without Spring
 - [ ] Multithreading basics
 - [ ] Thread lifecycle

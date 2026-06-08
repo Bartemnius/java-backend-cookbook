@@ -30,3 +30,7 @@ But as you move toward mid-level and senior-level roles, you should understand e
 - [Functional Interfaces](intermediate-advanced-java/10-functional-interfaces.md)
 - [Stream API Deeper Usage](intermediate-advanced-java/11-stream-api-deeper-usage.md)
 - [Parallel Streams](intermediate-advanced-java/12-parallel-streams.md)
+- [Immutability In Real Applications](intermediate-advanced-java/13-immutability-in-real-applications.md)
+- [Defensive Copying](intermediate-advanced-java/14-defensive-copying.md)
+- [SOLID Principles In Java](intermediate-advanced-java/15-solid-principles-in-java.md)
+- [Common Design Patterns In Java](intermediate-advanced-java/16-common-design-patterns-in-java.md)
