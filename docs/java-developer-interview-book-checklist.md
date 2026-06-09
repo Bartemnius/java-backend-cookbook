@@ -166,7 +166,7 @@ and extend.
 - [x] SOLID principles in Java
 - [x] Common design patterns in Java
 - [x] Dependency injection concept without Spring
-- [ ] Multithreading basics
+- [x] Multithreading basics
 - [ ] Thread lifecycle
 - [ ] Runnable vs Callable
 - [ ] ExecutorService
