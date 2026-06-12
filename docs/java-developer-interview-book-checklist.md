@@ -178,7 +178,7 @@ and extend.
 - [x] Deadlocks
 - [x] Thread safety
 - [x] Concurrent collections
-- [ ] Java Memory Model
+- [x] Java Memory Model
 - [ ] Virtual threads
 - [ ] Structured concurrency basics
 - [ ] Performance profiling basics

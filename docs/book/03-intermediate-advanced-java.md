@@ -47,3 +47,4 @@ But as you move toward mid-level and senior-level roles, you should understand e
 - [Deadlocks](intermediate-advanced-java/27-deadlocks.md)
 - [Thread Safety](intermediate-advanced-java/28-thread-safety.md)
 - [Concurrent Collections](intermediate-advanced-java/29-concurrent-collections.md)
+- [Java Memory Model](intermediate-advanced-java/30-java-memory-model.md)
