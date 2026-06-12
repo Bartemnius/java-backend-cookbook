@@ -179,7 +179,7 @@ and extend.
 - [x] Thread safety
 - [x] Concurrent collections
 - [x] Java Memory Model
-- [ ] Virtual threads
+- [x] Virtual threads
 - [ ] Structured concurrency basics
 - [ ] Performance profiling basics
 

@@ -48,3 +48,4 @@ But as you move toward mid-level and senior-level roles, you should understand e
 - [Thread Safety](intermediate-advanced-java/28-thread-safety.md)
 - [Concurrent Collections](intermediate-advanced-java/29-concurrent-collections.md)
 - [Java Memory Model](intermediate-advanced-java/30-java-memory-model.md)
+- [Virtual Threads](intermediate-advanced-java/31-virtual-threads.md)
