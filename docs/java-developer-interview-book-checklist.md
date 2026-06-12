@@ -167,17 +167,17 @@ and extend.
 - [x] Common design patterns in Java
 - [x] Dependency injection concept without Spring
 - [x] Multithreading basics
-- [ ] Thread lifecycle
-- [ ] Runnable vs Callable
-- [ ] ExecutorService
-- [ ] Future and CompletableFuture
-- [ ] synchronized
-- [ ] volatile
-- [ ] Locks
-- [ ] Race conditions
-- [ ] Deadlocks
-- [ ] Thread safety
-- [ ] Concurrent collections
+- [x] Thread lifecycle
+- [x] Runnable vs Callable
+- [x] ExecutorService
+- [x] Future and CompletableFuture
+- [x] synchronized
+- [x] volatile
+- [x] Locks
+- [x] Race conditions
+- [x] Deadlocks
+- [x] Thread safety
+- [x] Concurrent collections
 - [ ] Java Memory Model
 - [ ] Virtual threads
 - [ ] Structured concurrency basics
